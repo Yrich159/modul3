@@ -1,0 +1,55 @@
+*{
+    font-size: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu{
+    margin: 20px;
+}
+.menu button{
+    border: 3px;
+    border-radius: 10px;
+    border-color: blue;
+    height: 35px;
+    margin: 20px;
+}
+.img-a{
+    width: 300px;
+    height: 400px;
+}
+span{
+    padding: 30px;
+    font-size: 30px;
+}
+.font{
+    color: blue;
+}
+.link a{
+    color: red;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer button{
+    height: 40px;
+    border-radius: 15px;
+    margin: 20px;
+}
+.table{
+    display: table;
+    border-collapse: collapse;
+    margin: 80px 0px 0px 200px;
+}
+.row{
+    display: table-row;
+}
+.cell{
+    display: table-cell;
+    border: 3px solid black;
+    padding: 5px;
+}
